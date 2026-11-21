@@ -1,0 +1,19 @@
+{
+    "schema": "serbabisa-ledger-anchor/v1",
+    "algorithm": "sha256",
+    "note": "Hanya hash dan agregat. Tidak ada data pribadi. commitment = sha256(json kanonik dari `days`). Verifikasi: php artisan ledger:anchor-verify --manifest=<file>",
+    "commitment": "3471807b18cfe3a5637b28ba8db8e1d8e54c27ee00e9543ed60244453eb624fb",
+    "days": [
+        {
+            "day": "2026-11-20",
+            "first_entry_id": 2316,
+            "last_entry_id": 2326,
+            "entry_count": 11,
+            "total_amount": 0,
+            "merkle_root": "dcadd33b7e5bca04021a90d60aa5e192e4d2d5310fe8ce92ccdb9734e9c5b7fa",
+            "chain_hash": "a7274a5c6df554c5f11ec4549659f9f42b488b36e9b4842b8de15e5abc8c1121",
+            "sealed_at": "2026-11-21 01:25:50"
+        }
+    ],
+    "generated_at": "2026-11-21T01:31:23+00:00"
+}
